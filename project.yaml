@@ -5,7 +5,7 @@ basic:
         staging: ''
         development: ''
     breakpoints:
-        - 1200
+        - 1920
     pages:
         - /
     monitoring:
