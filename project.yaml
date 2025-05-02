@@ -24,7 +24,7 @@ advanced:
     headers:
         - { header: '', value: '' }
     cookies: ''
-    custom_js: ''
+    custom_js: "if (window.location.hash === '#ascend-test-demo') {\n  const $form = jQuery('#ascend-test-demo');\n\n  // Trigger form submit via the custom image button\n  $form.find('#customSubmit').click();\n}"
     custom_css: ''
     mock_content:
         - { selector: '', type: title }
