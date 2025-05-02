@@ -24,7 +24,7 @@ advanced:
     headers:
         - { header: '', value: '' }
     cookies: ''
-    custom_js: "const firstDropdown = document.querySelector('.nav > li.dropdown');\n\n// Create and dispatch mouseover event\nconst mouseOverEvent = new MouseEvent('mouseover', {\n  view: window,\n  bubbles: true,\n  cancelable: true\n});\n\nif (firstDropdown) {\n  firstDropdown.dispatchEvent(mouseOverEvent);\n}"
+    custom_js: ''
     custom_css: ''
     mock_content:
         - { selector: '', type: title }
