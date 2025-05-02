@@ -19,7 +19,7 @@ advanced:
     mask: ''
     remove: ''
     isolate: ''
-    delay: 20
+    delay: 40
     scroll: true
     headers:
         - { header: '', value: '' }
