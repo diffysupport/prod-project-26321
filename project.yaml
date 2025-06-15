@@ -4,10 +4,6 @@ basic:
         production: 'https://www.dentrixascend.com/demo'
         staging: ''
         development: ''
-    basicAuth:
-        production: { user: '', password: '' }
-        staging: { user: '', password: '' }
-        development: { user: '', password: '' }
     breakpoints:
         - 1200
     pages:
@@ -24,13 +20,11 @@ advanced:
     remove: ''
     delay: 40
     scroll: true
-    headers:
-        - { header: '', value: '' }
+    headers: {  }
     cookies: ''
     custom_js: "\n  const $form = jQuery('#ascend-test-demo');\n\n  // Fill text inputs\n  $form.find('#firstName').val('HS1');\n  $form.find('#lastName').val('Test');\n  $form.find('#practiceName').val('HS1');\n  $form.find('#phoneNumber').val('1231231234');\n  $form.find('#emailAddress').val('test@testor.com');\n  $form.find('#zipCode').val('12345');\n\n  // Select dropdown: Organization Type = DSO\n  $form.find('#organizationType').val('DSO');\n\n  // Select dropdown: Reason for contact = I have a technical question\n  $form.find('#contactRequest').val('I have a technical question');\n\n  // Select radio: I have 8–20 locations\n  $form.find('input[name=\"numLocations\"][value=\"8-20\"]').prop('checked', true);\n\n  // Check consent checkbox\n  $form.find('#Email_and_Text_Opt_in_from_Form').prop('checked', true);\n\n  // Trigger form submit via the custom image button\n  $form.find('#customSubmit').click();\n\n"
     custom_css: ''
-    mock_content:
-        - { selector: '', type: title }
+    mock_content: {  }
     sensitivity: 30
     night_mode: false
     retina_images: false
